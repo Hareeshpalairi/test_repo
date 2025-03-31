@@ -1,2 +1,42 @@
 tile 1 
 
+t "two"
+
+    This reverts commit c3b249bf5c162dff7f2e2105816aae0da651c139.
+
+commit c3b249bf5c162dff7f2e2105816aae0da651c139
+Author: HAreesh <Hareesh@gmail.com>
+
+CORPORATEROOT+923490@Corporate-72156 MINGW64 ~/Test-repo-01/zomato (branch02)
+$ ls
+aws1.txt  aws2.txt  aws3.txt  aws4.txt  aws5.txt
+
+CORPORATEROOT+923490@Corporate-72156 MINGW64 ~/Test-repo-01/zomato (branch02)
+$ touch app.java
+
+CORPORATEROOT+923490@Corporate-72156 MINGW64 ~/Test-repo-01/zomato (branch02)
+$ vim app.java
+
+CORPORATEROOT+923490@Corporate-72156 MINGW64 ~/Test-repo-01/zomato (branch02)
+$ git push origin
+fatal: The current branch branch02 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin branch02
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+CORPORATEROOT+923490@Corporate-72156 MINGW64 ~/Test-repo-01/zomato (branch02)
+$ git push -u origin branch02
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch02' on GitHub by visiting:
+remote:      https://github.com/Hareeshpalairi/test_repo/pull/new/branch02
+remote:
+To https://github.com/Hareeshpalairi/test_repo.git
+ * [new branch]      branch02 -> branch02
+branch 'branch02' set up to track 'origin/branch02'.
+
+CORPORATEROOT+923490@Corporate-72156 MINGW64 ~/Test-repo-01/zomato (branch02)
